@@ -1,0 +1,10 @@
+`timescale 1ns / 1ps
+
+
+module halfaddergate( A,B,S,C);
+input A,B;
+output S,C;
+
+xor g1(S,A,B);
+and g2(C,A,B);
+endmodule
